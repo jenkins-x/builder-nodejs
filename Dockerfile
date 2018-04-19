@@ -1,4 +1,4 @@
-FROM jenkinsxio/builder-base:0.0.203
+FROM jenkinsxio/builder-base:0.0.204
 
 RUN curl --silent --location https://rpm.nodesource.com/setup_9.x | bash - && \
   yum install -y nodejs gcc-c++ make
