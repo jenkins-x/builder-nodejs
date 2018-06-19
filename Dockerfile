@@ -6,6 +6,6 @@ RUN curl --silent --location https://rpm.nodesource.com/setup_9.x | bash - && \
 RUN npm i -g watch-cli vsce typescript
 
 # upgrade skaffold
-RUN curl -Lo skaffold https://github.com/jstrachan/skaffold/releases/download/v0.7.0.p2/skaffold-linux-amd64 && \
+RUN curl -Lo skaffold https://github.com/jstrachan/skaffold/releases/download/v0.7.0.p3/skaffold-linux-amd64 && \
 chmod +x skaffold && \
   mv skaffold /usr/bin
